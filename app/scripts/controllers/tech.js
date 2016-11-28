@@ -9,7 +9,7 @@
  */
 angular.module('passatApp')
   .controller('TechCtrl', function () {
-    this.awesomeThings = [
+    this.techSpecs = [
       'HTML5 Boilerplate',
       'AngularJS',
       'Karma'
