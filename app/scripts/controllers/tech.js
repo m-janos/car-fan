@@ -8,7 +8,7 @@
  * Controller of the passatApp
  */
 angular.module('passatApp')
-  .controller('AboutCtrl', function () {
+  .controller('TechCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
