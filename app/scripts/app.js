@@ -31,6 +31,7 @@ angular
         controller: 'GeneralCtrl',
         controllerAs: 'ctrl'
       })
+
       .when('/history', {
         templateUrl: 'views/history.html',
         controller: 'HistoryCtrl',
