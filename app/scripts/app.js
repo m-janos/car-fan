@@ -31,6 +31,11 @@ angular
         controller: 'GeneralCtrl',
         controllerAs: 'ctrl'
       })
+      .when('/history', {
+        templateUrl: 'views/history.html',
+        controller: 'HistoryCtrl',
+        controllerAs: 'ctrl'
+      })
       .when('/models', {
         templateUrl: 'views/models.html',
         controller: 'OtherModelsCtrl',
