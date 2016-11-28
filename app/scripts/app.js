@@ -31,6 +31,11 @@ angular
         controller: 'GeneralCtrl',
         controllerAs: 'ctrl'
       })
+      .when('/models', {
+        templateUrl: 'views/models.html',
+        controller: 'OtherModelsCtrl',
+        controllerAs: 'ctrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
