@@ -26,6 +26,22 @@ angular
         controller: 'MainCtrl',
         controllerAs: 'main'
       })
+      .when('/general', {
+        templateUrl: 'views/general.html',
+        controller: 'GeneralCtrl',
+        controllerAs: 'ctrl'
+      })
+
+      .when('/history', {
+        templateUrl: 'views/history.html',
+        controller: 'HistoryCtrl',
+        controllerAs: 'ctrl'
+      })
+      .when('/models', {
+        templateUrl: 'views/models.html',
+        controller: 'OtherModelsCtrl',
+        controllerAs: 'ctrl'
+      })
       .when('/tech', {
         templateUrl: 'views/tech.html',
         controller: 'TechCtrl',
