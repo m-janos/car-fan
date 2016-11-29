@@ -39,13 +39,13 @@ angular
       })
       .when('/models', {
         templateUrl: 'views/models.html',
-        controller: 'OtherModelsCtrl',
+        controller: 'ModelsCtrl',
         controllerAs: 'ctrl'
       })
       .when('/tech', {
         templateUrl: 'views/tech.html',
         controller: 'TechCtrl',
-        controllerAs: 'vm'
+        controllerAs: 'ctrl'
       })
       .otherwise({
         redirectTo: '/'

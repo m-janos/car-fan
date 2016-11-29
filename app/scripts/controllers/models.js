@@ -10,5 +10,4 @@
 angular.module('passatApp')
   .controller('ModelsCtrl', function () {
 
-
   });
