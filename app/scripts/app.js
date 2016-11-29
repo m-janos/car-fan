@@ -52,6 +52,11 @@ angular
         controller: 'TechCtrl',
         controllerAs: 'ctrl'
       })
+      .when('/feedback', {
+        templateUrl: 'views/feedback.html',
+        controller: 'FeedbackCtrl',
+        controllerAs: 'ctrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
