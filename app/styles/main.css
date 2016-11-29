@@ -10,6 +10,10 @@ body {
   background-color: #ff6961;
 }
 
+.footerText {
+  color: black;
+}
+
 .lightBlue {
   text-align: center;
   height: 50px;
