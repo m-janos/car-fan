@@ -16,6 +16,10 @@ body {
   background-color: #ADD8E6;
 }
 
+.navigation {
+  width: 100% !important;
+}
+
 .headerText {
   text-align: center;
   font-size: xx-large;
