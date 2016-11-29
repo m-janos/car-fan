@@ -42,6 +42,11 @@ angular
         controller: 'ModelsCtrl',
         controllerAs: 'ctrl'
       })
+      .when('/celebrites', {
+        templateUrl: 'views/celebrity.html',
+        controller: 'CelebritesCtrl',
+        controllerAs: 'ctrl'
+      })
       .when('/tech', {
         templateUrl: 'views/tech.html',
         controller: 'TechCtrl',
