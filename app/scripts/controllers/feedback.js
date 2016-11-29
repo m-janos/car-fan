@@ -8,7 +8,8 @@
  * Controller of the passatApp
  */
 angular.module('passatApp')
-  .controller('FeedBackCtrl', function () {
-
-
-  });
+  .controller('FeedbackCtrl', ['$scope', '$location', function ($scope, $location) {
+      this.onSubmit = function($evt){
+        alert("Your feedback has been processed successfully. Thank you!");
+      };
+  }]);
