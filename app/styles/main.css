@@ -10,10 +10,18 @@ body {
   background-color: #ff6961;
 }
 
+.footerText {
+  color: black;
+}
+
 .lightBlue {
   text-align: center;
   height: 50px;
   background-color: #ADD8E6;
+}
+
+.navigation {
+  width: 100% !important;
 }
 
 .headerText {

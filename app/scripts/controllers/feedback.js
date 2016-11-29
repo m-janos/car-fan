@@ -13,6 +13,6 @@ angular.module('passatApp')
       this.onSubmit = function($evt){
         var body = this.feedback || '';
         alert("Your feedback has been processed successfully. Thank you!");
-        window.location.href = "mailto:user@example.com?subject=Subject&body="+body+"%20goes%20here";
+        window.location.href = "mailto:user@example.com?subject=VW Passat Feedback&body="+body;
       };
   }]);
