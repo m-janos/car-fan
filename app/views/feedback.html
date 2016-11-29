@@ -2,7 +2,7 @@
     <h1 class="h1">Feedback</h1>
     <form>
         <div class="form-group">
-            <textarea class="form-control" rows="5" id="comment"></textarea>
+            <textarea class="form-control" rows="5" id="comment" ng-model="ctrl.feedback"></textarea>
         </div>
         <button ng-click="ctrl.onSubmit()">Submit</button>
     </form>
