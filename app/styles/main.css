@@ -10,6 +10,17 @@ body {
   background-color: #ff6961;
 }
 
+.lightBlue {
+  text-align: center;
+  height: 50px;
+  background-color: #ADD8E6;
+}
+
+.headerText {
+  text-align: center;
+  font-size: xx-large;
+}
+
 .navbar {
   width:100%;
 }
